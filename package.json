@@ -1,0 +1,17 @@
+{
+  "name": "-cli-application",
+  "version": "1.0.0",
+  "description": "nodeJsHw",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "author": "Adrian Topa",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "nodemon": "^3.1.4",
+    "yargs": "^17.7.2"
+  }
+}
